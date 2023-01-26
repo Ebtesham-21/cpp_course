@@ -1,9 +1,11 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
-    std::cout << "Hello world!" << std::endl;
-    return 0;
+ int favorite_number; 
+ std::cout << "Enter your favorite number between 1 and 100 : ";
+ std::cin >> favorite_number;
+  std::cout << "That's my num too" <<std::endl;
+
+  return 0;
 }
